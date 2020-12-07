@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+:root {
+    --font-family: 'Roboto', 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    --pink: #F17E90;
+    --gray: #384142;
+}
+
+.landing {
+    height: 90vh;
+}
+
+.logo {
+    width: 33rem;
+    height: 8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+a {
+    font-family: var(--font-family);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline var(--pink);
+}
+
+.p-logo {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: var(--gray);
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.card {
+    width: 16rem;
+    margin-left: 3rem;
+}
+
+.testimony {
+    font-family: var(--font-family);
+    font-weight: 100;
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+.about {
+    background-color: black;
+    height: 100vh;
+    text-align: center;
+}
+
+.title-about {
+    font-family: var(--font-family);
+    width: 60rem;
+    padding-top: 5rem;
+    margin: auto;
+    color: var(--pink);
+}
+
+.p-about {
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 1.3rem;
+    color: white;
+    width: 50rem;
+    padding-top: 2rem;
+    margin: auto;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.squeme {
+    height: 20rem;
+    width: 35rem;
+}
