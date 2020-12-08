@@ -105,3 +105,19 @@ p {
     height: 20rem;
     width: 35rem;
 }
+
+/* .card-grid {
+    display: inline-grid;
+} */
+
+#btn-right {
+    float: right;
+    display: inline;
+    color: var(--pink);
+}
+
+#btn-left {
+    float: left;
+    display: inline;
+    color: var(--pink);
+}
