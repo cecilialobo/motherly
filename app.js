@@ -58,3 +58,12 @@ function createCard (IndexOfCards) {
     const cardText = document.querySelector('.card-text');
     cardText.innerHTML = cards[IndexOfCards].text;
 }
+
+const scrollIntoView = () => {
+    const about = document.querySelector('.about');
+    about.scrollIntoView({behavior: "smooth"});
+};
+
+document.getElementById('btn-about').addEventListener('click', () => {
+ scrollIntoView();
+}); 

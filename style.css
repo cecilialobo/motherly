@@ -24,7 +24,7 @@
     margin-top: 3rem;
 }
 
-a {
+a, button {
     font-family: var(--font-family);
     margin-left: 1rem;
     margin-right: 1rem;
@@ -34,7 +34,18 @@ a {
     font-weight: 100;
 }
 
+button {
+    background: none;
+    border:none;
+    outline:none;
+}
+
 a:hover {
+    color: var(--pink);
+    text-decoration: underline var(--pink);
+}
+
+button:hover {
     color: var(--pink);
     text-decoration: underline var(--pink);
 }
@@ -105,10 +116,6 @@ p {
     height: 20rem;
     width: 35rem;
 }
-
-/* .card-grid {
-    display: inline-grid;
-} */
 
 #btn-right {
     float: right;
