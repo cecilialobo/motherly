@@ -30,12 +30,12 @@ a {
     margin-right: 1rem;
     text-decoration: none;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 100;
 }
 
 a:hover {
-    color: black;
+    color: var(--pink);
     text-decoration: underline var(--pink);
 }
 
@@ -70,6 +70,7 @@ p {
 
 .container {
     margin-top: 5rem;
+    width: fit-content;
 }
 
 .about {
